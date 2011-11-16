@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+
+Project("{A2D0E155-4B69-9EE2-D5FD-9959044099D4}") = "BooInspector", "Assembly-CSharp.csproj", "{5CD2E61F-AA3D-28B1-3613-8F1C07C71A8B}"
+EndProject
+Project("{A2D0E155-4B69-9EE2-D5FD-9959044099D4}") = "BooInspector", "Assembly-Boo-Editor.booproj", "{E0B34F9E-F2C5-0448-887A-A87FFBC4EB21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CD2E61F-AA3D-28B1-3613-8F1C07C71A8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CD2E61F-AA3D-28B1-3613-8F1C07C71A8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CD2E61F-AA3D-28B1-3613-8F1C07C71A8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CD2E61F-AA3D-28B1-3613-8F1C07C71A8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0B34F9E-F2C5-0448-887A-A87FFBC4EB21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0B34F9E-F2C5-0448-887A-A87FFBC4EB21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0B34F9E-F2C5-0448-887A-A87FFBC4EB21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0B34F9E-F2C5-0448-887A-A87FFBC4EB21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	
+EndGlobal
