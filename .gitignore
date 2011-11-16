@@ -1,0 +1,30 @@
+.DS_Store
+._.DS_Store
+Library/previews/*
+Library/AssetServerCacheV3
+Library/FailedAssetImports.txt
+Library/MonoManager.asset
+Library/ScriptAssemblies
+Library/ScriptMapper
+Library/Temp
+Library/assetDatabase3
+Library/cache
+Library/guidmapper
+Library/metadata
+Library/unity default resources
+Library/unity editor resources
+Library/InspectorExpandedItems.asset
+Library/expandedItems
+Assets/Prefabs.meta
+Assets/Prefabs
+Assets/Prefabs/Characters
+obj
+_BooInspector.suo
+Temp
+_ReSharper.BooInspector_UpgradeReport_Files
+UpgradeLog.XML
+
+
+
+/_ReSharper.BooInspector-csharp
+/_ReSharper.BooInspector-csharp/BuildScriptCache
