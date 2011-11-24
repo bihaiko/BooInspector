@@ -8,7 +8,7 @@ public class EasyEditor (Editor):
 	private _icon as Texture
 	private _undoable as bool
 	
-	protected _settings as bool	
+	protected static _settings as bool	
 
 	public override def OnInspectorGUI():	
 		_undoable = false
