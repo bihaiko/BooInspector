@@ -1,3 +1,5 @@
+namespace Com.Freakow.BooInspector
+
 macro EasyCol:
 	yield [|		
 		try:

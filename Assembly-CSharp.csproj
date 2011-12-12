@@ -44,13 +44,13 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Samples\RageCanvasAlign.cs" />
-     <Compile Include="Assets\Samples\RageEdgetune.cs" />
-     <Compile Include="Assets\Samples\RageEdgetuneData.cs" />
-     <Compile Include="Assets\Samples\RageGroup.cs" />
-     <Compile Include="Assets\Samples\RageGroupPhysicsData.cs" />
-     <Compile Include="Assets\Samples\RagePivotools.cs" />
-     <Compile Include="Assets\Samples\RageSvgIn.cs" />
+     <Compile Include="Assets\BooInspector-Samples\Ragetools\RageCanvasAlign.cs" />
+     <Compile Include="Assets\BooInspector-Samples\Ragetools\RageEdgetune.cs" />
+     <Compile Include="Assets\BooInspector-Samples\Ragetools\RageGroup.cs" />
+     <Compile Include="Assets\BooInspector-Samples\Ragetools\RageMagnet.cs" />
+     <Compile Include="Assets\BooInspector-Samples\Ragetools\RagePivotools.cs" />
+     <Compile Include="Assets\BooInspector-Samples\Ragetools\RageSvgIn.cs" />
+     <None Include="Assets\readme-booinspector.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

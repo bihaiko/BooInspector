@@ -1,3 +1,5 @@
+namespace Com.Freakow.BooInspector
+
 import UnityEditor
 import UnityEngine
 

@@ -44,15 +44,20 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\BooInspector-Samples\Ragetools\Editor\RageCanvasAlignEditor.boo" />
+     <Compile Include="Assets\BooInspector-Samples\Ragetools\Editor\RageEdgetuneEditor.boo" />
+     <Compile Include="Assets\BooInspector-Samples\Ragetools\Editor\RageGroupEditor.boo" />
+     <Compile Include="Assets\BooInspector-Samples\Ragetools\Editor\RageMagnetEditor.boo" />
+     <Compile Include="Assets\BooInspector-Samples\Ragetools\Editor\RagePivotoolsEditor.boo" />
+     <Compile Include="Assets\BooInspector-Samples\Ragetools\Editor\RageSvgInEditor.boo" />
      <Compile Include="Assets\Editor\BooInspector\EasyEditor.boo" />
      <Compile Include="Assets\Editor\BooInspector\EasyMacros.boo" />
      <Compile Include="Assets\Editor\BooInspector\EasyStyles.boo" />
-     <Compile Include="Assets\Editor\MySampleEditor.boo" />
-     <Compile Include="Assets\Samples\Editor\RageCanvasAlignEditor.boo" />
-     <Compile Include="Assets\Samples\Editor\RageEdgetuneEditor.boo" />
-     <Compile Include="Assets\Samples\Editor\RageGroupEditor.boo" />
-     <Compile Include="Assets\Samples\Editor\RagePivotoolsEditor.boo" />
-     <Compile Include="Assets\Samples\Editor\RageSvgInEditor.boo" />
+     <Compile Include="Assets\Editor\RageToolsEditor.boo" />
+     <None Include="Assets\readme-booinspector.txt" />
+ <Reference Include="AssetStoreTools">
+ <HintPath>Assets\AssetStoreTools\Editor\AssetStoreTools.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">

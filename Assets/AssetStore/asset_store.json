@@ -1,0 +1,11 @@
+{
+	"publisher_id": 0,
+	"publisher_package_id": 0,
+	"title": "Boo Inspector",
+	"description": "<p><br>If you develop components for Unity and want to have that professional custom editor look, coding your own inspector is the way to go. Alas, the native command structure can be quite encryptic, long-winded and hard to debug.</p>\n<p>Boo Inspector cleans it all up for you, making the coding of Unity editor inspectors an order of magnitude easier. Through the use of the powerful Boo Macros, whole new \"commands\" are defined, with a new, much simplified syntax that hides all the boring formal structure away.</p>\n<p><br>* Boo Inspector works with any script, be it written with JavaScript, C# or Boo itself.</p>",
+	"changes": "Initial release.",
+	"version_name": "1.0",
+	"category": 2,
+	"recommended_features": [],
+	"required_features": []
+}
