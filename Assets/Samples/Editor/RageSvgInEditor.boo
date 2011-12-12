@@ -1,7 +1,7 @@
 import UnityEngine
 
 [CustomEditor(typeof(RageSvgIn))]
-public class RageSvgInEditor (RageToolsEditor): 
+public class RageSvgInEditor (MySampleEditor): 
 	
 	private _svgIn as RageSvgIn
 	

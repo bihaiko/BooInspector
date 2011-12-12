@@ -47,12 +47,12 @@
      <Compile Include="Assets\Editor\BooInspector\EasyEditor.boo" />
      <Compile Include="Assets\Editor\BooInspector\EasyMacros.boo" />
      <Compile Include="Assets\Editor\BooInspector\EasyStyles.boo" />
-     <Compile Include="Assets\Editor\RageToolsEditor.boo" />
-     <Compile Include="Assets\RageTools\Editor\RageCanvasAlignEditor.boo" />
-     <Compile Include="Assets\RageTools\Editor\RageEdgetuneEditor.boo" />
-     <Compile Include="Assets\RageTools\Editor\RageGroupEditor.boo" />
-     <Compile Include="Assets\RageTools\Editor\RagePivotoolsEditor.boo" />
-     <Compile Include="Assets\RageTools\Editor\RageSvgInEditor.boo" />
+     <Compile Include="Assets\Editor\MySampleEditor.boo" />
+     <Compile Include="Assets\Samples\Editor\RageCanvasAlignEditor.boo" />
+     <Compile Include="Assets\Samples\Editor\RageEdgetuneEditor.boo" />
+     <Compile Include="Assets\Samples\Editor\RageGroupEditor.boo" />
+     <Compile Include="Assets\Samples\Editor\RagePivotoolsEditor.boo" />
+     <Compile Include="Assets\Samples\Editor\RageSvgInEditor.boo" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-vs.csproj">

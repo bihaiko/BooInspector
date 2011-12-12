@@ -1,7 +1,7 @@
 import UnityEngine
 
 [CustomEditor(typeof(RageEdgetune))]
-public class RageEdgetuneEditor (RageToolsEditor): 
+public class RageEdgetuneEditor (MySampleEditor): 
 
 	private _edgetune as RageEdgetune
 	

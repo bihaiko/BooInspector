@@ -5,11 +5,11 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>9.0.21022</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{E0B34F9E-F2C5-0448-887A-A87FFBC4EB21}</ProjectGuid>
+	<ProjectGuid>{874324F0-9BB9-4287-FD3E-695DDBD7E4D2}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
-	<AssemblyName>Assembly-Boo-Editor</AssemblyName>
+	<AssemblyName>Assembly-CSharp-Editor</AssemblyName>
 	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
 	<FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -44,21 +44,13 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Editor\BooInspector\EasyEditor.boo" />
-     <Compile Include="Assets\Editor\BooInspector\EasyMacros.boo" />
-     <Compile Include="Assets\Editor\BooInspector\EasyStyles.boo" />
-     <Compile Include="Assets\Editor\MySampleEditor.boo" />
-     <Compile Include="Assets\Samples\Editor\RageCanvasAlignEditor.boo" />
-     <Compile Include="Assets\Samples\Editor\RageEdgetuneEditor.boo" />
-     <Compile Include="Assets\Samples\Editor\RageGroupEditor.boo" />
-     <Compile Include="Assets\Samples\Editor\RagePivotoolsEditor.boo" />
-     <Compile Include="Assets\Samples\Editor\RageSvgInEditor.boo" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{5CD2E61F-AA3D-28B1-3613-8F1C07C71A8B}</Project>
-      <Name>Assembly-CSharp</Name>
-    </ProjectReference>
+     <Compile Include="Assets\Editor\RageTools\RageCanvasAlign.cs" />
+     <Compile Include="Assets\Editor\RageTools\RageEdgetune.cs" />
+     <Compile Include="Assets\Editor\RageTools\RageEdgetuneData.cs" />
+     <Compile Include="Assets\Editor\RageTools\RageGroup.cs" />
+     <Compile Include="Assets\Editor\RageTools\RageGroupPhysicsData.cs" />
+     <Compile Include="Assets\Editor\RageTools\RagePivotools.cs" />
+     <Compile Include="Assets\Editor\RageTools\RageSvgIn.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

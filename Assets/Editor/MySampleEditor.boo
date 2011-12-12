@@ -1,6 +1,6 @@
 import UnityEngine
 
-public abstract class RageToolsEditor (EasyEditor): 
+public abstract class MySampleEditor (EasyEditor): 
 
 	protected override def IconAssetName():
 		return "ragetoolsicon"

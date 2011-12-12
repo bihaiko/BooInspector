@@ -1,7 +1,7 @@
 import UnityEngine
 
 [CustomEditor(typeof (RagePivotools))]
-public class RagePivotoolsEditor (RageToolsEditor): 
+public class RagePivotoolsEditor (MySampleEditor): 
 
 	private _pivotools as RagePivotools
 

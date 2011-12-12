@@ -1,7 +1,7 @@
 import UnityEngine
 
 [CustomEditor(typeof(RageGroup))]
-public class RageGroupEditor (RageToolsEditor): 
+public class RageGroupEditor (MySampleEditor): 
 
 	private _tweak as bool
 	private _showList as bool

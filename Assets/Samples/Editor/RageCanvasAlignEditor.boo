@@ -2,7 +2,7 @@ import System
 import UnityEditor
 
 [CustomEditor(typeof(RageCanvasAlign))]
-public class RageCanvasAlignEditor (RageToolsEditor): 
+public class RageCanvasAlignEditor (MySampleEditor): 
 	
 	protected override def OnDrawInspectorHeaderLine ():
 		cAlign = target as RageCanvasAlign

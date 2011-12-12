@@ -44,13 +44,13 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\RageTools\RageCanvasAlign.cs" />
-     <Compile Include="Assets\RageTools\RageEdgetune.cs" />
-     <Compile Include="Assets\RageTools\RageEdgetuneData.cs" />
-     <Compile Include="Assets\RageTools\RageGroup.cs" />
-     <Compile Include="Assets\RageTools\RageGroupPhysicsData.cs" />
-     <Compile Include="Assets\RageTools\RagePivotools.cs" />
-     <Compile Include="Assets\RageTools\RageSvgIn.cs" />
+     <Compile Include="Assets\Samples\RageCanvasAlign.cs" />
+     <Compile Include="Assets\Samples\RageEdgetune.cs" />
+     <Compile Include="Assets\Samples\RageEdgetuneData.cs" />
+     <Compile Include="Assets\Samples\RageGroup.cs" />
+     <Compile Include="Assets\Samples\RageGroupPhysicsData.cs" />
+     <Compile Include="Assets\Samples\RagePivotools.cs" />
+     <Compile Include="Assets\Samples\RageSvgIn.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
