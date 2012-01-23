@@ -1,7 +1,25 @@
 <Configuration>
   <RecentFiles>
-    <RecentFiles />
-    <RecentEdits />
+    <RecentFiles>
+      <File id="5CD2E61F-AA3D-28B1-3613-8F1C07C71A8B/d:Assets/d:BooInspector-Samples/d:Ragetools/f:RageCanvasAlign.cs" caret="139" fromTop="4" />
+      <File id="5CD2E61F-AA3D-28B1-3613-8F1C07C71A8B/d:Assets/d:BooInspector-Samples/d:Ragetools/f:RagePivotools.cs" caret="152" fromTop="4" />
+      <File id="5CD2E61F-AA3D-28B1-3613-8F1C07C71A8B/d:Assets/d:BooInspector-Samples/d:Ragetools/f:RageMagnet.cs" caret="127" fromTop="4" />
+      <File id="5CD2E61F-AA3D-28B1-3613-8F1C07C71A8B/d:Assets/d:BooInspector-Samples/d:Ragetools/f:RageGroup.cs" caret="125" fromTop="4" />
+      <File id="5CD2E61F-AA3D-28B1-3613-8F1C07C71A8B/d:Assets/d:BooInspector-Samples/d:Ragetools/f:RageEdgetune.cs" caret="392" fromTop="13" />
+      <File id="5CD2E61F-AA3D-28B1-3613-8F1C07C71A8B/d:Assets/d:BooInspector-Samples/d:Ragetools/f:RageSvgIn.cs" caret="399" fromTop="9" />
+      <File id="5CD2E61F-AA3D-28B1-3613-8F1C07C71A8B/d:Assets/d:BooInspector-Samples/d:Ragetools/f:IRageComponent.cs" caret="0" fromTop="0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="5CD2E61F-AA3D-28B1-3613-8F1C07C71A8B/d:Assets/d:BooInspector-Samples/d:Ragetools/f:RageCanvasAlign.cs" caret="382" fromTop="10" />
+      <File id="5CD2E61F-AA3D-28B1-3613-8F1C07C71A8B/d:Assets/d:BooInspector-Samples/d:Ragetools/f:RageCanvasAlign.cs" caret="137" fromTop="4" />
+      <File id="5CD2E61F-AA3D-28B1-3613-8F1C07C71A8B/d:Assets/d:BooInspector-Samples/d:Ragetools/f:RageEdgetune.cs" caret="170" fromTop="5" />
+      <File id="5CD2E61F-AA3D-28B1-3613-8F1C07C71A8B/d:Assets/d:BooInspector-Samples/d:Ragetools/f:RageGroup.cs" caret="125" fromTop="4" />
+      <File id="5CD2E61F-AA3D-28B1-3613-8F1C07C71A8B/d:Assets/d:BooInspector-Samples/d:Ragetools/f:RageMagnet.cs" caret="127" fromTop="4" />
+      <File id="5CD2E61F-AA3D-28B1-3613-8F1C07C71A8B/d:Assets/d:BooInspector-Samples/d:Ragetools/f:RagePivotools.cs" caret="152" fromTop="4" />
+      <File id="5CD2E61F-AA3D-28B1-3613-8F1C07C71A8B/d:Assets/d:BooInspector-Samples/d:Ragetools/f:RageSvgIn.cs" caret="141" fromTop="10" />
+      <File id="5CD2E61F-AA3D-28B1-3613-8F1C07C71A8B/d:Assets/d:BooInspector-Samples/d:Ragetools/f:RageSvgIn.cs" caret="0" fromTop="0" />
+      <File id="5CD2E61F-AA3D-28B1-3613-8F1C07C71A8B/d:Assets/d:BooInspector-Samples/d:Ragetools/f:RageEdgetune.cs" caret="392" fromTop="13" />
+    </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
     <NAntPath value="" />
@@ -21,4 +39,12 @@
       <setting name="SolutionAnalysisEnabled">False</setting>
     </boolean>
   </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="OnStart`0" priority="26" />
+      <Item value="OnAwake`0" priority="31" />
+      <Item value="OnUpdate`0" priority="31" />
+      <Item value="OnFixedUpdate`0" priority="31" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
 </Configuration>

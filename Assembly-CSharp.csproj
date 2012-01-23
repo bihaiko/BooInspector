@@ -44,7 +44,9 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\BooInspector-Samples\Ragetools\IRageComponent.cs" />
      <Compile Include="Assets\BooInspector-Samples\Ragetools\RageCanvasAlign.cs" />
+     <Compile Include="Assets\BooInspector-Samples\Ragetools\RageComponent.cs" />
      <Compile Include="Assets\BooInspector-Samples\Ragetools\RageEdgetune.cs" />
      <Compile Include="Assets\BooInspector-Samples\Ragetools\RageGroup.cs" />
      <Compile Include="Assets\BooInspector-Samples\Ragetools\RageMagnet.cs" />
