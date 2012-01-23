@@ -2,7 +2,7 @@ using UnityEngine;
 
 [ExecuteInEditMode]
 [AddComponentMenu("RageTools/Rage Group")]
-public class RageGroup : MonoBehaviour {
+public class RageGroup : RageComponent {
 
     [SerializeField]
     public bool GroupTweak;

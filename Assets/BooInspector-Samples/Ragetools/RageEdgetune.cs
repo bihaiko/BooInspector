@@ -3,7 +3,7 @@ using UnityEngine;
 [ExecuteInEditMode]
 [RequireComponent(typeof(RageGroup))]
 [AddComponentMenu("RageTools/Rage EdgeTune")]
-public class RageEdgetune : MonoBehaviour {
+public class RageEdgetune : RageComponent {
 	
     public GameObject TextMeshGO;
     public RageGroup ThisRageGroup;
@@ -12,7 +12,6 @@ public class RageEdgetune : MonoBehaviour {
     public float StartResolutionHeight;
     public bool CameraIsOrtho;
 
-    public bool On;
     public float AaFactor = 1.0f;
     public float DensityFactor = 0.5f;
     public bool AutomaticLod = true;

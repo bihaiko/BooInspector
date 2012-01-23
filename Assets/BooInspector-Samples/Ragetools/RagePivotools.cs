@@ -2,7 +2,7 @@ using UnityEngine;
 
 [RequireComponent(typeof(RageGroup))]
 [AddComponentMenu("RageTools/Rage Pivotools")]
-public class RagePivotools : MonoBehaviour{
+public class RagePivotools : RageComponent {
 
     public enum CenterMode { Default = 0, Reference };
 

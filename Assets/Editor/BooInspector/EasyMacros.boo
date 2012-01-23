@@ -155,6 +155,11 @@ macro EasyFloatField:
 
 
 
+macro EasyPercent:
+   case [| EasyPercent $label,  $expression |]:
+       yield [| $expression = UndoablePercent($label, $expression) |]	
+
+
 macro EasyToggle:
    case [| EasyToggle $label,  $expression |]:
        yield [| $expression = UndoableToggle($label, $expression) |]	

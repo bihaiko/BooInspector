@@ -1,14 +1,8 @@
-using System;
-using System.IO;
-using System.Text.RegularExpressions;
 using UnityEngine;
-
-using System.Collections.Generic;
-using System.Globalization;
 using Object = UnityEngine.Object;
 
 [AddComponentMenu("RageTools/Rage SVG In")]
-public class RageSvgIn : MonoBehaviour {
+public class RageSvgIn : RageComponent {
 	
     public Object SvgFile;
     public int MinVertexDensity = 3;

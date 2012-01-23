@@ -24,6 +24,11 @@ public class EasyEditor (Editor):
 			OnDrawInspectorHeaderLine()
 		
 		OnDrawInspectorGUI()
+		
+		Separator()	
+		EasyRow:
+			OnDrawInspectorFooterLine()
+			
 		OnGuiRendered()
 	
 	protected abstract def IconAssetName() as string:
@@ -31,6 +36,9 @@ public class EasyEditor (Editor):
 		
 	protected abstract def OnDrawInspectorHeaderLine():
 		pass
+		
+	protected virtual def OnDrawInspectorFooterLine():
+		pass		
 
 	protected virtual def OnDrawInspectorGUI():
 		pass
@@ -153,6 +161,13 @@ public class EasyEditor (Editor):
 		
 		if ValueChanged(current, lastValue):
 			Undo.RegisterSceneUndo(TargetName() + ": " + label + " Reference Change")
+		return current
+					
+	protected def UndoablePercent(label as string, lastValue as single) as single:
+		GUILayout.Label(label)	
+		current = EditorGUILayout.Slider(lastValue, 0, 100);
+		if ValueChanged(current, lastValue):
+			Undo.RegisterSceneUndo(TargetName() + ": " + label + " Change")
 		return current
 
 	protected def TargetName() as string:
